@@ -1,5 +1,6 @@
 package org.example.spring.controller;
 
+import org.example.spring.Model.Message;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
@@ -7,7 +8,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api")
-public class controller {
+public class Controller {
 
     List<Message> messageList = new ArrayList<>();
 
